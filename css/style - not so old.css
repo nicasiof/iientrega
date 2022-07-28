@@ -1,0 +1,259 @@
+/* . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . */
+/* . * . *    inicialización de ccs . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . *.*/
+/*  . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . */
+/* . * . *fin inicialización de ccs . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . *.*/
+/*  . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . */
+body{
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+    and (min-device-width: 1200px) 
+    and (max-device-width: 1600px) 
+    and (-webkit-min-device-pixel-ratio: 1) { 
+}
+/* ----------- Retina Screens ----------- */
+@media screen 
+    and (min-device-width: 1200px) 
+    and (max-device-width: 1600px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (min-resolution: 192dpi) { 
+}
+/* Portrait and Landscape */
+@media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2) { 
+}
+
+/* Portrait */
+@media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) { 
+}
+/* Landscape */
+@media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) { 
+}
+    height: 23.529411764705884em;
+    background-color: rgb(213, 13, 13);
+    font-family: 'M PLUS Rounded 1c', sans-serif; font-weight: bold;
+    /*font-size: 30px;*/
+    font-size: 2vw;
+}
+footer{
+    background-color:  #1b1b1b;
+    height: 20vw;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1,3vw;
+    color: #FFFFFF;
+}
+h1{font-size: 4.705882352941177em; font-family: 'M PLUS Rounded 1c', sans-serif; font-weight: 900; line-height: 1,5;}
+h5{color: #666; font-family: 'M PLUS Rounded 1c', sans-serif; font-weight: 900; line-height: 2;}
+h6{color: #f2f2f2; font-family: 'M PLUS Rounded 1c', sans-serif; font-weight: 400; line-height:2;}
+p{
+    line-height: 1.5;
+}
+.div1 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+}
+.div2 {
+    width: 300px;
+    height: 100px;    
+    padding: 50px;
+    border: 1px solid burlywood;
+    box-sizing: border-box;
+}
+.imgRedonda {
+    width:16.647058823529413em;
+    height: 16.647058823529413em;
+    border-radius:10.588235294117647em;   
+    border:0px solid #666;
+    background: #CC527A;
+}
+.parent{
+    text-align : center;
+    }
+/*maqueta*/
+   * {
+    box-sizing: border-box;
+}
+.container {
+    width:100%;
+    max-width:600px;
+    font-family: 'M PLUS Rounded 1c:300', sans-serif;
+    margin: 0 auto;
+    padding:10px;
+}
+.row {
+    height:220px; /*set height*/
+    font-family: 'M PLUS Rounded 1c:300', sans-serif;
+    width:100%;
+    margin-bottom:10px;
+    padding:10px;
+}
+.col1 {
+    font-family: 'M PLUS Rounded 1c:300', sans-serif;
+    width:100%;
+    height:100%;    
+}
+.col2 {
+    width:49%;
+    float:left;
+    height:100%;
+    margin-right:2%;    
+}
+.col2:last-child {margin-right:0;  }
+.col3 {
+    width:32%;
+    float:left;
+    height:100%;
+    margin-right:2%;    
+}
+.col3:last-child {margin-right:0;  }
+.col4 {
+    width:23%;
+    float:left;
+    height:10%;
+    margin-right:2%;    
+}
+.col4:last-child {margin-right:0;  }
+hr{
+    size: 0px;
+    border-color: black;
+    height: 1px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    border-radius: 180px;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+.main {
+    padding: 16px;
+    margin-bottom: 30px;
+    }
+.button {
+    background-color: #000000; /* negro */
+    border: none;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px 4px 4px;
+    cursor: pointer;
+    height: 5px;
+    }
+.button1 {border-radius: 40px; padding-bottom: 30px;   width:100px}
+.button2 {color: black;border-radius: 40px;background-color: #ffffff; width:100px}
+.button3 {border-radius: 40px;}
+.button4 {border-radius: 40px;}
+.button5 {border-radius: 40px;}
+table{
+    background-color: #870410;
+}
+/* . * . * . * . * . * . * . * . * . *  . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . */
+/* . * . * responsive                  . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . *.*/
+/*  . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . * . */
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+  /* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.responsive566 {
+    width: 100%;
+    max-width: 566px;
+    height: auto;
+}
